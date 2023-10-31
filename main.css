@@ -111,6 +111,13 @@ Alteração indicadores carousel
 }
 */
 
+.cardapio-image{ /*Deixar as imagens no padrão do mesmo tamanho*/
+    height: 200px; /* Adjust the height to your preference */
+     /* No caso da imagem estar distorcida, voce pode adicionar uma das linhas abaixo */
+    max-width: 100%;
+    object-fit: cover;
+}
+
 @media(max-width: 767px){
     .carousel-item img{
         height: 280px;
